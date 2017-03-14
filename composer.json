@@ -1,7 +1,6 @@
 {
     "name": "5ini99/think-mailer",
     "description": "thinkphp and php-mailer package",
-    "type": "composer-plugin",
     "license": "Apache-2.0",
     "minimum-stability": "dev",
     "keywords": [
@@ -17,7 +16,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/5ini99/think-auth/issues"
+        "issues": "https://github.com/5ini99/think-mailer/issues"
     },
     "require": {
         "php": ">=5.4.0",
