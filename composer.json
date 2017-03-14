@@ -1,0 +1,39 @@
+{
+    "name": "5ini99/think-mailer",
+    "description": "thinkphp and php-mailer package",
+    "type": "composer-plugin",
+    "license": "Apache-2.0",
+    "minimum-stability": "dev",
+    "keywords": [
+        "5ini99",
+        "thinkphp",
+        "phpmailer"
+    ],
+    "homepage": "https://github.com/5ini99/think-mailer",
+    "authors": [
+        {
+            "name": "xiaobo.sun",
+            "email": "xiaobo.sun@qq.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/5ini99/think-auth/issues"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "phpmailer/phpmailer": "~5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src"
+        },
+        "files": [
+            "src/common.php"
+        ]
+    },
+    "extra": {
+        "think-config": {
+            "mailer": "src/config.php"
+        }
+    }
+}
